@@ -15,9 +15,7 @@
 
 #main-nav ul li a { padding: 0.5rem }
 
-#home-articles .articles-container {
-  grid-template-columns: repeat(2, 1fr);
-}
+#home-articles .articles-container { grid-template-columns: repeat(2, 1fr)}
 
 #home-articles .articles-container > *:first-child, 
 #home-articles .articles-container > *:last-child {
@@ -48,7 +46,5 @@
 
   .page-container > *:first-child { grid-row: 1 }
 
-  .l-heading {
-    font-size: 2rem;
-  }
+  .l-heading { font-size: 2rem }
 }
